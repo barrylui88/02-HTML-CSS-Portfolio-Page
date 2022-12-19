@@ -58,7 +58,7 @@ header nav li {
 }
 
 /* Button Banner (CSS Grid) */
-#button-banner {
+#entire-button-banner {
   display:grid;
   height: 50vh;
   grid-template-columns: 50% 50%;
@@ -70,18 +70,36 @@ header nav li {
 
 .each-button-banner {
   padding:10px;
-  text-align: right;
-  vertical-align: bottom;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#entire-button-banner a {
+  color: white;
 }
 
 #about-me-banner {
   grid-area: about-me-banner;
+  background-image: url("../images/bl-about-me-image.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 #work-banner {
   grid-area: work-banner;
+  background-image: url("../images/bl-work-image.jpeg");
+  background-size:cover;
+  background-repeat: no-repeat;
 }
 
 #contact-me-banner {
   grid-area: contact-me-banner;
+  background-image: url("../images/bl-contact-me-image.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+.each-page-content-box {
+  padding: 10px;
 }
