@@ -93,6 +93,7 @@ header nav li {
   background-image: url("../images/bl-about-me-image.jpg");
   background-size:cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #work-banner {
@@ -100,6 +101,7 @@ header nav li {
   background-image: url("../images/bl-work-image.jpeg");
   background-size:cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #contact-me-banner {
@@ -107,6 +109,7 @@ header nav li {
   background-image: url("../images/bl-contact-me-image.jpg");
   background-size:cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 .each-page-content-box {
