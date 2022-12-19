@@ -210,3 +210,30 @@ header nav li {
   font-weight: bold;
   
 }
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  #entire-button-banner {
+    display:grid;
+    height: 50vh;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "about-me-banner"
+    "work-banner"
+    "contact-me-banner"
+  }
+
+  #work-portfolio-grid {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+    "project-1-banner"
+    "project-2-banner"
+    "project-3-banner"
+    "project-4-banner"
+    "project-5-banner";
+    height:100vh;
+  }
+}
