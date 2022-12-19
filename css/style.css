@@ -56,3 +56,32 @@ header nav li {
 #seasonal-message h2 {
   font-size: 12px;
 }
+
+/* Button Banner (CSS Grid) */
+#button-banner {
+  display:grid;
+  height: 50vh;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  grid-template-areas:
+  "about-me-banner work-banner"
+  "about-me-banner contact-me-banner"
+}
+
+.each-button-banner {
+  padding:10px;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+#about-me-banner {
+  grid-area: about-me-banner;
+}
+
+#work-banner {
+  grid-area: work-banner;
+}
+
+#contact-me-banner {
+  grid-area: contact-me-banner;
+}
