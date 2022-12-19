@@ -8,6 +8,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 /* Top Navigation Bar */
@@ -16,6 +17,7 @@ header {
   background-color: var(--header-bg-colour);
   width: 100%;
   display: flex;
+  position: fixed;
   flex-direction: row;
   align-items: center;
 }
@@ -44,11 +46,17 @@ header nav li {
   padding-left: 30px;
 }
 
+/* Spacer Div */
+#nav-bar-spacer {
+  height: 95px;
+}
+
 /* Seasonal Message Bar */
 #seasonal-message {
   background-color:lightgray;
   height:30px;
   display:flex;
+
   justify-content:center;
   align-items:center;
 }
@@ -68,15 +76,16 @@ header nav li {
   "about-me-banner contact-me-banner"
 }
 
+#entire-button-banner a {
+  color: white;
+  text-decoration: none;
+}
+
 .each-button-banner {
   padding:10px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-}
-
-#entire-button-banner a {
-  color: white;
 }
 
 #about-me-banner {
