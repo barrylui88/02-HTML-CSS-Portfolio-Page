@@ -9,9 +9,9 @@ Following this task, I've certainly enhanced my skills to wireframe and then wri
 One of the challenges I'd like to overcome is understanding how to make things work properly across different browsers. I noticed on Firefox, my webpage looks slightly different to how it does on Safari and Chrome. Additionally, there are challenges around using a Fixed position for navigation bars as it appears to cause content to appear under it. For the purpose of this project, I've worked around this with a 'spacer div' but it isn't optimal as content links appear to take you a bit too low (even though they are behaving as expected).
 
 ### Useful Links
-[GitHub Repository: HTML-CSS-Portfolio Page](https://github.com/barrylui88/html-css-portfolio-page)
+[GitHub Repository: HTML-CSS-Portfolio Page](https://github.com/barrylui88/02-HTML-CSS-Portfolio-Page)
 
-[Deployed Page (powered by GitHub Pages)](https://barrylui88.github.io/html-css-portfolio-page/)
+[Deployed Page (powered by GitHub Pages)](https://barrylui88.github.io/02-HTML-CSS-Portfolio-Page/)
 
 ## Installation
 
